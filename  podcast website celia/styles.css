@@ -1,0 +1,155 @@
+.verklein-afbeelding {
+    width: 25%;
+}
+
+iframe {
+    height: 40%vw;
+    width: 50vw;
+    border-radius: 5vw;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ffffff93;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+ul a {
+    color: #000000;
+    font-size: 0.8em;
+}
+
+li {
+    margin-right: 1em;
+}
+
+li:hover {
+    background: #112f3b80;
+    padding: 0.5em;
+    border-radius: 1em;
+    transition: all 300ms ease;
+}
+
+section.intro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    border: solid 1em #0075874e;
+    border-radius: 1em;
+    background-color: #007587;
+    padding: 0.5em;
+    margin-bottom: 10vw;
+}
+
+section.intro p{
+    display: flex;
+    text-align: cen;
+
+}
+
+.producten h2 {
+    display: flex;
+    justify-content: center;
+}
+
+section.producten{
+background-color: #12262a0c;
+margin: 0.5em;
+border-radius: 1em;
+padding: 1em;
+}
+
+.producten h3 {
+    color: #007687;
+    text-align: left;
+}
+
+.producten img {
+    height: 50vw;;
+    margin-bottom: 5vw;
+}
+
+.teaservideo {
+    width: 100%;
+    height: 300%;
+}
+
+h1.afleveringen {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 10vw;
+}
+
+body.afleveringen h2 {
+    color: #12262a;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vw;
+}
+
+strong {
+    font-size: large;
+    color: #007587;
+}
+
+q {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+
+main.afleveringen img{
+    height: 40%vw;
+    width: 50vw;
+    border-radius: 5vw;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background: #446e76;
+    color: #ffffff;
+    padding: 0.5em;
+    border-radius: 1em;
+    text-decoration: none;
+    transition: all 300ms ease;
+    margin-bottom: 10vw;
+}
+
+button:hover {
+    background-color: #52b1ae;
+    transform: scale(1.2);
+    color: #000000;
+}
+
+main.overons img{
+    height: auto;
+    width: 30vw;
+    border-radius: 1em;    
+}
+
+h1.overons {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 1vw;
+}
+
+
+main.overons div p{
+    text-align: right;
+}
+
+main.overons p{
+    margin-bottom: 20vw;
+}
+footer {
+    display: flex;
+    justify-content: left;
+}
